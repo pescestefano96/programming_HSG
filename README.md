@@ -1,9 +1,21 @@
-# programming_HSG
+# Title (Trading strategy)
+intro...
 
-write here the code description
+### Context
+Context and theory...
 
-How to use
+### Building a stock screener in Python
+...
 
-Expected outcome
+### How to use
+1. Make sure that you have installed all the necessary modules.
+2. ...
 
-Credits
+### Expected outcome
+...
+
+### Credits
+The project is inspired by and took part of the code from:
+- ...
+
+### Enjoy 😊📈
