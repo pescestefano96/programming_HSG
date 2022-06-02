@@ -18,4 +18,11 @@ Context and theory...
 The project is inspired by and took part of the code from:
 - ...
 
+### Authors
+- Arvid Huwiler
+- Joel Cohen
+- Oliver Koch
+- Stefano Pesce
+- Urs ...
+
 ### Enjoy 😊📈
