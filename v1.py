@@ -10,9 +10,9 @@ import time
 yf.pdr_override()
 
 #####################################################################################################################
-#Choose between 3 markets
+#Choose between 2 markets
 
-x = input('Tap 1 for sp500, 2 for FTSE or 3 for the Dow ')
+x = input('Tap 1 for the S&P500 or 2 for the Dow Jones ')
 
 if (x == '1'):
     tickers = si.tickers_sp500()
@@ -22,15 +22,8 @@ if (x == '1'):
     end_date = datetime.date.today()
     exportList = pd.DataFrame(columns=['Stock', "RS_Rating", "50 Day MA", "150 Day Ma", "200 Day MA", "52 Week Low", "52 week High"])
     returns_multiples = []
+
 if (x == '2'):
-    tickers = si.tickers_ftse100()
-    tickers = [item.replace(".", "-") for item in tickers] # Yahoo Finance uses dashes instead of dots
-    index_name =  '^FTSE' # S&P 500
-    start_date = datetime.datetime.now() - datetime.timedelta(days=365)
-    end_date = datetime.date.today()
-    exportList = pd.DataFrame(columns=['Stock', "RS_Rating", "50 Day MA", "150 Day Ma", "200 Day MA", "52 Week Low", "52 week High"])
-    returns_multiples = []
-if (x == '3'):
     tickers = si.tickers_dow()
     tickers = [item.replace(".", "-") for item in tickers] # Yahoo Finance uses dashes instead of dots
     index_name =  '^DJI' # S&P 500
