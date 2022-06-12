@@ -23,6 +23,6 @@ The project is inspired by and took part of the code from:
 - Joel Cohen
 - Oliver Koch
 - Stefano Pesce
-- Urs ...
+- Urs Hurni
 
 ### Enjoy 😊📈
