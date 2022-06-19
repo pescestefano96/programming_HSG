@@ -215,7 +215,7 @@ for stock in rs_stocks:
         condition_9 = float(PEG_Ratio) < 4
         
         # If all conditions above are true, add stock to exportList
-        if(condition_8 and condtion_9):
+        if(condition_8 and condition_9):
             exportList = exportList.append({'Stock': stock, "RS_Rating": RS_Rating ,"50 Day MA": moving_average_50, "150 Day Ma": moving_average_150, "200 Day MA": moving_average_200, "52 Week Low": low_of_52week, "52 week High": high_of_52week, "PE-Ratio": PE_Ratio, "PEG-Ratio": PEG_Ratio }, ignore_index=True)
                       
     except Exception as e:
