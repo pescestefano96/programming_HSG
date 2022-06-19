@@ -209,16 +209,19 @@ for stock in rs_stocks:
         condition_7 = currentClose >= (0.5*high_of_52week)
         
         # Condition 8: PE Ratio
-        condition_8 = PE_Ratio < 20
+        condition_8 = float(PE_Ratio) < 20
+        
+        # Condition 9: PEG Raio
+        condition_9 = float(PEG_Ratio) < 4
         
         # If all conditions above are true, add stock to exportList
-        if(condition_1 and condition_2 and condition_3 and condition_4 and condition_5 and condition_6 and condition_7 and condition_8):
+        if(condition_8 and condtion_9):
             exportList = exportList.append({'Stock': stock, "RS_Rating": RS_Rating ,"50 Day MA": moving_average_50, "150 Day Ma": moving_average_150, "200 Day MA": moving_average_200, "52 Week Low": low_of_52week, "52 week High": high_of_52week, "PE-Ratio": PE_Ratio, "PEG-Ratio": PEG_Ratio }, ignore_index=True)
                       
     except Exception as e:
         print (e)
          
-exportList = exportList.sort_values(by='RS_Rating', ascending=False)
+
 
 exportList
 
