@@ -31,3 +31,4 @@ if (x == '2'):
     end_date = datetime.date.today()
     exportList = pd.DataFrame(columns=['Stock', "RS_Rating", "50 Day MA", "150 Day Ma", "200 Day MA", "52 Week Low", "52 week High"])
     returns_multiples = []
+tickers
