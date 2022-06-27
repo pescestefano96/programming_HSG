@@ -6,8 +6,8 @@ Stock screening tools allow investors to sort through the broad field of potenti
 ### Building a stock screener in Python
 ...
 
-### Context and Mark Minervini Stock Screener Mark Minervini's Stock Trend Following System
-...
+### Mark Minervini's Stock Trend Following System
+In the context of this project, we decided to imolement the well-known Mark Minvervini's stock trend following system. Accordingly, ...
 
 ### How to use
 1. Make sure that you have installed all the necessary modules.
