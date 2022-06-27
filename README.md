@@ -48,7 +48,7 @@ The project is inspired by and took part of the code from:
 - https://www.screener.in/screens/
 - https://github.com/hackingthemarkets/stockscreener
 - https://gist.github.com/shashankvemuri/50ed514a0ed41599ac29cc297efc3c05
-- Trade Like a Stock Market Wizard (2013)
+- Minervini, M. (2013). Trade like a stock market wizard: How to achieve super performance in stocks in any market. New York: McGraw-Hill Education.
 
 ### Authors
 - Arvid Huwiler
