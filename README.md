@@ -12,15 +12,15 @@ The wide range of financial securities can be narrowed down by investors using s
 
 ### Building a stock screener in Python
 
-1.	Identify the set of financial instrument to be sorted (e.g. an index like the S&P500).
+1.	Identify the set of financial instruments to be sorted (e.g., an index such as the S&P500).
 
 2.	Identify the desired period of analysis.
 
-3.  Select the conditions according to which the instruments will be sorted.
+3.  Select the conditions under which to sort the instruments. These depend on the specific investment strategy adopted by the user.
 
-4.	Calculate the return and metrics needed to implement the conditions for the assets in the portfolio.
+4.	Calculate the metrics needed to implement the desired conditions for each financial instrument.
 
-5.	Collect all the instrument that meet the conditions in a list.
+5.	Collect all instruments that meet the conditions into a list.
 
 ### Mark Minervini's Stock Trend Following System
 In the context of this project, we decided to imolement the well-known Mark Minvervini's stock trend following system. 
