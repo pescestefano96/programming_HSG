@@ -11,10 +11,26 @@ A stock screener is a tool that allows investors to swiftly sort through the num
 The wide range of financial securities can be narrowed down by investors using stock screening tools and their own set of criteria. Based on their individual needs, users choose certain investment parameters to begin the process. A fundamental investor, for example, might be more interested in market capitalization, earnings per share (EPS), operating cash flow, dividend yield, or similar factors. Instead, moving average levels, relative strength index (RSI) levels, average directional index (ADX) readings, and chart patterns, among others, would be of more interest to a technical trader.
 
 ### Building a stock screener in Python
-...
+
+1.	Identify the set of financial instrument to be sorted (e.g. an index like the S&P500).
+
+2.	Identify the desired period of analysis.
+
+3.  Select the conditions according to which the instruments will be sorted.
+
+4.	Calculate the return and metrics needed to implement the conditions for the assets in the portfolio.
+
+5.	Collect all the instrument that meet the conditions in a list.
 
 ### Mark Minervini's Stock Trend Following System
-In the context of this project, we decided to imolement the well-known Mark Minvervini's stock trend following system. Accordingly, ...
+In the context of this project, we decided to imolement the well-known Mark Minvervini's stock trend following system. 
+Who was mark minervini
+One of the most remarkable idea... 
+Hoe much he earned thanks to this theory as rationale
+According to the ..., ... -> conditions
+
+We also included two additional conditions: ...
+
 
 ### How to use
 1. Make sure that you have installed all the necessary modules.
