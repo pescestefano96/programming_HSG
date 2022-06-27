@@ -1,8 +1,8 @@
 # Stock Screener
 
-This project is part of the courses "Introduction to Programming" and "Programming with Advanced Computer Languages" at the University of St. Gallen (HSG) held during the spring semester of 2022. The purpose is to construct a so-called stock screener in Python following Marvini's (2013) stock trend following strategy.
+This project is part of the "Introduction to Programming" and "Programming with Advanced Computer Languages" courses at the University of St. Gallen (HSG) held in the spring semester of 2022. The purpose is to construct a so-called stock screener in Python following the stock trend following strategy of Marvini (2013).
 
-Afterwards, the theoretical background and the structure of the code are explained.
+Subsequently, the theoretical background and code structure will be explained.
 
 ### Context
 
