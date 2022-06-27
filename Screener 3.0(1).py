@@ -22,7 +22,7 @@ yf.pdr_override()
 
 # Let user choose the index he wants to screen
 
-choice = int(input("Tap 1 for Dowjones, Tap 2 for Nasdaq, Tap 3 for S&P 500: "))
+choice = int(input("Type 1 for Dowjones, 2 for Nasdaq, or 3 for S&P 500: "))
 
 if choice == 1:
     tickers = si.tickers_dow()
