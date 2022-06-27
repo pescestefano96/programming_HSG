@@ -23,11 +23,16 @@ The wide range of financial securities can be narrowed down by investors using s
 5.	Collect all instruments that meet the conditions into a list.
 
 ### Mark Minervini's Stock Trend Following System
-In the context of this project, we decided to imolement the well-known Mark Minvervini's stock trend following system. 
-Who was mark minervini
-One of the most remarkable idea... 
-Hoe much he earned thanks to this theory as rationale
-According to the ..., ... -> conditions
+Mark Minervini is a technical analyst, acclaimed author, instructor and considered one of the most successful independent stock traders in the U.S.
+
+He is the author of the best-selling book Trade Like a Stock Market Wizard (2013), in which he explains his stock trend following strategy, which is essentially a momentum trading approach. Accordingly, an investor should buy a stock when:
+- The current stock price is above both the 150-day (30-week) and 200-day (40-week) moving average price ranges.
+- The 150-day moving average is above the 200-day moving average.
+- The 200-day moving average line has been in an upward trend for at least 1 month (preferably 4-5 months minimum in most cases).
+- The 50-day (10-week) moving average is above the 150-day and 200-day moving averages.
+- The current price of the stock is trading above the 50-day moving average.
+- The current price of the stock is at least 30 percent above its 52-week low.
+- The current price of the stock is at least 25% of its 52-week high (the closer to a new high, the better).
 
 We also included two additional conditions: ...
 
@@ -44,6 +49,7 @@ The project is inspired by and took part of the code from:
 - https://www.screener.in/screens/
 - https://github.com/hackingthemarkets/stockscreener
 - https://gist.github.com/shashankvemuri/50ed514a0ed41599ac29cc297efc3c05
+- Trade Like a Stock Market Wizard (2013)
 
 ### Authors
 - Arvid Huwiler
