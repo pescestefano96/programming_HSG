@@ -23,9 +23,7 @@ The wide range of financial securities can be narrowed down by investors using s
 5.	Collect all instruments that meet the conditions into a list.
 
 ### Mark Minervini's Stock Trend Following System
-Mark Minervini is a technical analyst, acclaimed author, instructor and considered one of the most successful independent stock traders in the U.S.
-
-He is the author of the best-selling book Trade Like a Stock Market Wizard (2013), in which he explains his stock trend following strategy, which is essentially a momentum trading approach. Accordingly, an investor should buy a stock when:
+Mark Minervini is a technical analyst, acclaimed author, instructor and considered one of the most successful independent stock traders in the U.S. He is the author of the best-selling book Trade Like a Stock Market Wizard (2013), in which he explains his stock trend following strategy, which is essentially a momentum trading approach. Accordingly, an investor should buy a stock when:
 - The current stock price is above both the 150-day (30-week) and 200-day (40-week) moving average price ranges.
 - The 150-day moving average is above the 200-day moving average.
 - The 200-day moving average line has been in an upward trend for at least 1 month (preferably 4-5 months minimum in most cases).
