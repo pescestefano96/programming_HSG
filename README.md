@@ -34,8 +34,9 @@ He is the author of the best-selling book Trade Like a Stock Market Wizard (2013
 - The current price of the stock is at least 30 percent above its 52-week low.
 - The current price of the stock is at least 25% of its 52-week high (the closer to a new high, the better).
 
-We also included two additional conditions: ...
-
+As part of this project, we followed Minervini's trading strategy and implemented the above mentioned conditions. Moreover, we augmented the set of conditions with two additional key indices widely used by financial professionals:
+- The price-to-earnings (PE) ratio must be lower than 20.
+- The price/earnings-to-growth (PEG) ratio must be lower than 4.
 
 ### How to use
 1. Make sure that you have installed all the necessary modules.
