@@ -1,4 +1,4 @@
-# Title (Trading strategy)
+# Stock screener in Python (trading strategy?)
 intro...
 
 ### Context
@@ -16,7 +16,9 @@ Context and theory...
 
 ### Credits
 The project is inspired by and took part of the code from:
-- ...
+- https://www.screener.in/screens/
+- https://github.com/hackingthemarkets/stockscreener
+- https://gist.github.com/shashankvemuri/50ed514a0ed41599ac29cc297efc3c05
 
 ### Authors
 - Arvid Huwiler
