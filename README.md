@@ -6,7 +6,7 @@ Subsequently, the theoretical background and code structure will be explained.
 
 ### Context
 
-A stock screener is a tool that allows investors to swiftly sort through the numerous stocks or other financial instruments  (egg, the rising exchange-traded funds) available depending on the investor's own criteria. Stock screening tools allow investors to use their own methods for determining what makes a stock valuable (long-term investors) or to spot a potential trading opportunity (short-term traders). Both technical and fundamental traders, as well as seasoned and novice investors, can benefit from these tools.
+A stock screener is a tool that allows investors to swiftly sort through the numerous stocks or other financial instruments  (e.g., the rising exchange-traded funds) available depending on the investor's own criteria. Stock screening tools allow investors to use their own methods for determining what makes a stock valuable (long-term investors) or to spot a potential trading opportunity (short-term traders). Both technical and fundamental traders, as well as seasoned and novice investors, can benefit from these tools.
 
 The wide range of financial securities can be narrowed down by investors using stock screening tools and their own set of criteria. Based on their individual needs, users choose certain investment parameters to begin the process. A fundamental investor, for example, might be more interested in market capitalization, earnings per share (EPS), operating cash flow, dividend yield, or similar factors. Instead, moving average levels, relative strength index (RSI) levels, average directional index (ADX) readings, and chart patterns, among others, would be of more interest to a technical trader.
 
