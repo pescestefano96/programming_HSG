@@ -60,6 +60,10 @@ and
 
 (2) The user-entered conditions for PE-Ratio and PEG-Ratio
 
+that includes the following columns:
+
+Stock	    RS_Rating	    50 Day MA	    150 Day MA	    200 Day MA	    52 Week Low	    52 Week High	    PE-Ratio	    PEG-Ratio
+
 ### Credits
 The project is inspired by and took part of the code from:
 - https://www.screener.in/screens/
