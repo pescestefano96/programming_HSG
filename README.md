@@ -40,7 +40,8 @@ As part of this project, we followed Minervini's trading strategy and implemente
 1. Make sure that you have installed all the necessary modules.
 2. Run the program
 3. Choose conditions for the screen:
-    (i)   Part of the S&P 500 or the Dow Jones
+
+    (i)   Screen stocks in the S&P 500 or the Dow Jones
     
     (ii)  Screen for the Minervini-Conditions or the opposite of the Minervini-Conditions
     
