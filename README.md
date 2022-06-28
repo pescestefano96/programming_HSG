@@ -41,9 +41,13 @@ As part of this project, we followed Minervini's trading strategy and implemente
 2. Run the program
 3. Choose conditions for the screen:
     (i)   Part of the S&P 500 or the Dow Jones
+    
     (ii)  Screen for the Minervini-Conditions or the opposite of the Minervini-Conditions
+    
     (iii) Limit screening to percentage of top performing stocks in the choosen index 
+    
     (iv)  Choose a maximum PE-Ratio for screened stocks
+    
     (v)   Choose a maximum Price-Earnings-Growth ratio for screened stocks
 
 ### Expected outcome
