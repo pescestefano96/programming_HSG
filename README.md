@@ -54,7 +54,9 @@ As part of this project, we followed Minervini's trading strategy and implemente
 ### Expected outcome
 The stock screener will return a list of stock tickers that fulfill the seven Minervini-Conditions outlined above and the user-entered conditions for PE-Ratio and PEG-Ratio, limite3d by the chosen screening percentage of the index. The list includes the following columns:
 
-Stock	    RS_Rating	    50 Day MA	    150 Day MA	    200 Day MA	    52 Week Low	    52 Week High	    PE-Ratio	    PEG-Ratio
+| Stock         | RS_Rating     | 50 Day MA   | 150 Day MA | 200 Day MA | 52 Week Low | 52 Week High | PE-Ratio | PEG-Ratio| 
+| ------------- | ------------- | --------    | --------   | --------   | --------    | --------     | -------- | -------- | 
+
 
 ### Credits
 The project is inspired by and took part of the code from:
