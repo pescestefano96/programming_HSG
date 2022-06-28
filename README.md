@@ -52,8 +52,13 @@ As part of this project, we followed Minervini's trading strategy and implemente
     (v)   Choose a maximum Price-Earnings-Growth ratio for screened stocks
 
 ### Expected outcome
-The stock screener will return a list of stock tickers fulfilling the entered contitions as well as the Minervini-Conditions outlined above.
+The stock screener will return a list of stock tickers that fulfill
 
+(1) The seven Minervini-Conditions outlined above
+
+and
+
+(2) The user-entered conditions for PE-Ratio and PEG-Ratio
 
 ### Credits
 The project is inspired by and took part of the code from:
