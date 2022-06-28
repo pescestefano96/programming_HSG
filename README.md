@@ -47,12 +47,12 @@ As part of this project, we followed Minervini's trading strategy and implemente
     
     (iii) Limit screening to percentage of top performing stocks in the choosen index 
     
-    (iv)  Choose a maximum PE-Ratio for screened stocks
+    (iv)  Choose a maximum price-to-earnings for screened stocks
     
-    (v)   Choose a maximum Price-Earnings-Growth ratio for screened stocks
+    (v)   Choose a maximum price/earnings-to-growth ratio for screened stocks
 
 ### Expected outcome
-The stock screener will return a list of stock tickers that fulfill the seven Minervini-Conditions outlined above and the user-entered conditions for PE-Ratio and PEG-Ratio, limite3d by the chosen screening percentage of the index. The list includes the following columns:
+The stock screener will return a list of stock tickers that fulfill the seven Minervini-Conditions outlined above and the user-entered conditions for PE-Ratio and PEG-Ratio, limited by the chosen screening percentage of the index. The list includes the following columns:
 
 | Stock         | RS_Rating     | 50 Day MA   | 150 Day MA | 200 Day MA | 52 Week Low | 52 Week High | PE-Ratio | PEG-Ratio| 
 | ------------- | ------------- | --------    | --------   | --------   | --------    | --------     | -------- | -------- | 
