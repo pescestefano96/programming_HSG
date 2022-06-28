@@ -32,7 +32,7 @@ Mark Minervini is a technical analyst, acclaimed author, instructor and consider
 - The current price of the stock is at least 30 percent above its 52-week low.
 - The current price of the stock is at least 25% of its 52-week high (the closer to a new high, the better).
 
-As part of this project, we followed Minervini's trading strategy and implemented the above mentioned conditions. Moreover, we augmented the set of conditions with two additional key indices widely used by financial professionals, for which cutoff value can be entered by the user before screening:
+As part of this project, we followed Minervini's trading strategy and implemented the above mentioned conditions. Moreover, we augmented the set of conditions with two additional key indices widely used by financial professionals, for which cutoff values can be entered by the user before screening:
 - The price-to-earnings (PE) ratio
 - The price/earnings-to-growth (PEG) ratio 
 
@@ -52,15 +52,7 @@ As part of this project, we followed Minervini's trading strategy and implemente
     (v)   Choose a maximum Price-Earnings-Growth ratio for screened stocks
 
 ### Expected outcome
-The stock screener will return a list of stock tickers that fulfill
-
-(1) The seven Minervini-Conditions outlined above
-
-and
-
-(2) The user-entered conditions for PE-Ratio and PEG-Ratio
-
-that includes the following columns:
+The stock screener will return a list of stock tickers that fulfill the seven Minervini-Conditions outlined above and the user-entered conditions for PE-Ratio and PEG-Ratio, limite3d by the chosen screening percentage of the index. The list includes the following columns:
 
 Stock	    RS_Rating	    50 Day MA	    150 Day MA	    200 Day MA	    52 Week Low	    52 Week High	    PE-Ratio	    PEG-Ratio
 
