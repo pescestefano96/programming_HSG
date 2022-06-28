@@ -32,12 +32,12 @@ Mark Minervini is a technical analyst, acclaimed author, instructor and consider
 - The current price of the stock is at least 30 percent above its 52-week low.
 - The current price of the stock is at least 25% of its 52-week high (the closer to a new high, the better).
 
-As part of this project, we followed Minervini's trading strategy and implemented the above mentioned conditions. Moreover, we augmented the set of conditions with two additional key indices widely used by financial professionals:
-- The price-to-earnings (PE) ratio must be lower than 20.
-- The price/earnings-to-growth (PEG) ratio must be lower than 4.
+As part of this project, we followed Minervini's trading strategy and implemented the above mentioned conditions. Moreover, we augmented the set of conditions with two additional key indices widely used by financial professionals, for which cutoff value can be entered by the user before screening:
+- The price-to-earnings (PE) ratio
+- The price/earnings-to-growth (PEG) ratio 
 
 ### How to use
-1. Make sure that you have installed all the necessary modules.
+1. Make sure that you have installed all the necessary modules. (pandas, pandas_datareader, yahoo_fin)
 2. Run the program
 3. Choose conditions for the screen:
 
@@ -52,7 +52,7 @@ As part of this project, we followed Minervini's trading strategy and implemente
     (v)   Choose a maximum Price-Earnings-Growth ratio for screened stocks
 
 ### Expected outcome
-The stock screener will return a list of stock tickers fulfilling the entered contition.
+The stock screener will return a list of stock tickers fulfilling the entered contitions as well as the Minervini-Conditions outlined above.
 
 
 ### Credits
