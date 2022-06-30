@@ -25,18 +25,18 @@ yf.pdr_override()
 choice = int(input("Tap 1 for Dowjones, Tap 2 for S&P 500: "))
 
 if choice == 1:
-    tickers = si.tickers_dow()
-    tickers = [item.replace(".", "-") for item in tickers]
-    index_name = '^DJI'
+    tickers = si.tickers_dow() #get tickers
+    tickers = [item.replace(".", "-") for item in tickers] #replace "-" to "."
+    index_name = '^DJI' #define Index
     start_date = datetime.datetime.now() - datetime.timedelta(days=365) #define start date as today - 1 year
     end_date = datetime.date.today() #define end date as todays date
     exportList = pd.DataFrame(columns=['Stock', "RS_Rating", "50 Day MA", "150 Day Ma", "200 Day MA", "52 Week Low", "52 week High", "PE-Ratio", "PEG-Ratio"])#define export list with column titels
     returns_multiples = [] #create empty list
     
 elif choice == 2:
-    tickers = si.tickers_sp500()
+    tickers = si.tickers_sp500() #get tickers
     tickers = [item.replace(".", "-") for item in tickers] # Yahoo Finance uses dashes instead of dots
-    index_name = '^GSPC' # define indexname (dowjones)
+    index_name = '^GSPC' # define indexname (s&p500)
     start_date = datetime.datetime.now() - datetime.timedelta(days=365) #define start date as today - 1 year
     end_date = datetime.date.today() #define end date as todays date
     exportList = pd.DataFrame(columns=['Stock', "RS_Rating", "50 Day MA", "150 Day Ma", "200 Day MA", "52 Week Low", "52 week High", "PE-Ratio"])#define export list with column titels
@@ -45,7 +45,7 @@ elif choice == 2:
 
 # In[17]:
 
-
+#create user input
 a = int(input("Tap 1 if you want to filter for the Minervini-Conditions, Tap 2 if you want the opposite of the Minervini Conditions: "))
 b = float(input("Choose the percentage of top performing stocks compared to their Index which should be screened(chose a number between 0 and 1): "))
 c = float(input("Choose the PE-Ratio the stocks should max. have: "))
@@ -56,7 +56,7 @@ d = float(input("Choose the max. PEG-Ratio the stocks should have: "))
 
 
 # Index Returns
-index_df = pdr.get_data_yahoo(index_name, start_date, end_date)
+index_df = pdr.get_data_yahoo(index_name, start_date, end_date) #get data from yahoo (index name, start date and end date)
 index_df['Percent Change'] = index_df['Adj Close'].pct_change() #add new col. (percent change) which is adjusted close pct change
 
 
@@ -118,7 +118,7 @@ for ticker in nticker: #loop through tickers in the new list (nticker)
        print(f'{ticker}: {e}')  # print the ticker and the error
    print(f'Ticker: {ticker}\n')
    temp = temp.iloc[:,:2]
-   temp.columns = ["Attribute", "Recent"] 
+   temp.columns = ["Attribute", "Recent"] #define columns of dataframe
    dow_stats[ticker] = temp
    
    
@@ -127,8 +127,8 @@ for ticker in nticker: #loop through tickers in the new list (nticker)
 
 # In[11]:
 
-
-combined_stats = pd.concat(dow_stats)
+#combine the stats
+combined_stats = pd.concat(dow_stats) 
 combined_stats = combined_stats.reset_index()
 combined_stats
 
@@ -139,7 +139,7 @@ combined_stats
 del combined_stats["level_1"] #delete column form dataframe
 # update column names
 combined_stats.columns = ["Ticker", "Attribute", "Recent"]
-combined_stats
+combined_stats #print dataframe
 
 
 # In[13]:
@@ -173,13 +173,13 @@ rs_df #print the dataframe
 
 rs_stocks = rs_df['Ticker']
 
-if a == "1":
+if a == "1": #if user choose 1 run this code
   for stock in rs_stocks:    
       try:
           df = pd.read_csv(f'{stock}.csv', index_col=0)
-          sma = [50, 150, 200]
+          sma = [50, 150, 200] #list for simle moving avarages
           for x in sma:
-              df["SMA_"+str(x)] = round(df['Adj Close'].rolling(window=x).mean(), 2)
+              df["SMA_"+str(x)] = round(df['Adj Close'].rolling(window=x).mean(), 2) #claculate all sma's (using the list create before)
         
           # Storing required values 
           currentClose = df["Adj Close"][-1]
@@ -188,13 +188,13 @@ if a == "1":
           moving_average_200 = df["SMA_200"][-1]
           low_of_52week = round(min(df["Low"][-260:]), 2)
           high_of_52week = round(max(df["High"][-260:]), 2)
-          RS_Rating = round(rs_df[rs_df['Ticker']==stock].RS_Rating.tolist()[0])
+          RS_Rating = round(rs_df[rs_df['Ticker']==stock].RS_Rating.tolist()[0]) 
           PE_Ratio = rs_df[rs_df["Ticker"]== stock].PE_Ratio.tolist()[0]
           PEG_Ratio = rs_df[rs_df["Ticker"]== stock].PEG_Ratio.tolist()[0]
         
         
           try:
-              moving_average_200_20 = df["SMA_200"][-20]
+              moving_average_200_20 = df["SMA_200"][-20] 
           except Exception:
               moving_average_200_20 = 0
             
@@ -234,9 +234,9 @@ if a == "1":
           print (e)
                              
 
-exportList
+exportList #print result
 
-if a == 2:
+if a == 2: #run this code if user choose 2
   for stock in rs_stocks:    
       try:
           df = pd.read_csv(f'{stock}.csv', index_col=0)
@@ -298,18 +298,18 @@ if a == 2:
                              
 
 
-exportList
-
-
-
-
-# In[ ]:
+exportList #print result
 
 
 
 
 
-# In[ ]:
+
+
+
+
+
+
 
 
 
