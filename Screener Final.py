@@ -177,7 +177,7 @@ if a == "1": #if user choose 1 run this code
   for stock in rs_stocks:    
       try:
           df = pd.read_csv(f'{stock}.csv', index_col=0)
-          sma = [50, 150, 200] #list for simle moving avarages
+          sma = [50, 150, 200] #list for simple moving avarages
           for x in sma:
               df["SMA_"+str(x)] = round(df['Adj Close'].rolling(window=x).mean(), 2) #claculate all sma's (using the list create before)
         
@@ -189,8 +189,8 @@ if a == "1": #if user choose 1 run this code
           low_of_52week = round(min(df["Low"][-260:]), 2)
           high_of_52week = round(max(df["High"][-260:]), 2)
           RS_Rating = round(rs_df[rs_df['Ticker']==stock].RS_Rating.tolist()[0]) 
-          PE_Ratio = rs_df[rs_df["Ticker"]== stock].PE_Ratio.tolist()[0]
-          PEG_Ratio = rs_df[rs_df["Ticker"]== stock].PEG_Ratio.tolist()[0]
+          PE_Ratio = rs_df[rs_df["Ticker"]== stock].PE_Ratio.tolist()[0] 
+          PEG_Ratio = rs_df[rs_df["Ticker"]== stock].PEG_Ratio.tolist()[0] 
         
         
           try:
@@ -220,11 +220,11 @@ if a == "1": #if user choose 1 run this code
           condition_7 = currentClose > (0.75*high_of_52week)
         
         # Condition 8: PE Ratio
-          condition_8 = float(PE_Ratio) < float(c)
+          condition_8 = float(PE_Ratio) < c
         
         # Condition 9: PEG Ratio
         
-          condition_9 = float(PEG_Ratio) < float(d)
+          condition_9 = float(PEG_Ratio) < d
         
         # If all conditions above are true, add stock to exportList
           if(condition_1 and condition_2 and condition_3 and condition_4 and  condition_7 and condition_8 and condition_9):
